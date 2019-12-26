@@ -1,11 +1,11 @@
 def getDict():
   r={}
   while (True):
-    print('Введите ключ')
+    print('Введите имя')
     k=input()
     if k=='Стоп':
       break
-    print('Введите значение')
+    print('Введите фамилию')
     v=input()
     r[k]=v
   return r
