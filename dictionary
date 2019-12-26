@@ -1,0 +1,14 @@
+def getDict():
+  r={}
+  while (True):
+    print('Введите ключ')
+    k=input()
+    if k=='Стоп':
+      break
+    print('Введите значение')
+    v=input()
+    r[k]=v
+  return r
+
+d=getDict()
+print(d)
