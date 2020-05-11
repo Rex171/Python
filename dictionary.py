@@ -7,6 +7,8 @@ while True:
   if name == "Выход":
     break
   family = input('Введите фамилию: ')
+  if family == "Выход":
+    break
   ListName.append(name)
   ListFamily.append(family)
 print(a['Имя'])
