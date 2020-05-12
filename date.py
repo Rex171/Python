@@ -1,7 +1,7 @@
 import datetime
 data1 = input('Введите 1 дату (гггг-мм-дд): ')
 data2 = input('Введите 2 дату (гггг-мм-дд): ')
-now = datetime.datetime.now().time()
+# now = datetime.datetime.now().time()
 a1 = data1.split('-')
 b1 = data2.split('-')
 a3 = datetime.datetime(int(a1[0]),int(a1[1]),int(a1[2]))
