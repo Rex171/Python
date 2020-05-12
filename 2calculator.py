@@ -1,7 +1,7 @@
 
 def addBinary(a,b):
-  for ch in a: assert ch in {'0','1'}, 'не верные числа'+ ch
-  for ch in b: assert ch in {'0','1'}, 'не верные числа'+ ch
+  for ch in a: assert ch in {'0','1'}, 'не верные числа '+ ch
+  for ch in b: assert ch in {'0','1'}, 'не верные числа '+ ch
   sumx = int(a, 2) + int(b, 2)
   return bin(sumx)[2:]
 def minusBinary(a,b):
