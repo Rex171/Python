@@ -1,13 +1,15 @@
+# импортируем функции для операционной системы
 import getpass
 import os
+# создаем переменую с именем пользователя
 a = getpass.getuser()
-#directory = 'C:/Users/'+a
-#files = os.listdir(directory) 
 print(a)
 #получение древа каталогов
+# выводит все папки и файлы из папки пользователя
 for i in os.listdir('/Users/'+a):
     print(i)
 #получение директории
+# выясняет из какой папки запускается скрипт
 dir = os.path.abspath(os.curdir)
 print('Текущий пользователь: ' + a)
 print('Абсолютный путь к дериктории в которой запущен скрипт: '+dir)
